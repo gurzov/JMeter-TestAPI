@@ -5,7 +5,7 @@
 ● получение списка пользователей
 ● регистрацию и авторизацию
 
-РЕШЕНИЕ в jmeter-testapi.jmx.
+РЕШЕНИЕ в src/test/jmeter/jmeter-testapi.jmx.
 
 ● Настройки HTTP Request Defaults:
  - протокол = https
