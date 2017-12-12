@@ -1,15 +1,15 @@
 # JMeter-TestAPI
 
+****************
 ЗАДАНИЕ:
 Используя Public API https://reqres.in проверьте (с помощью JMeter):
 ● получение списка пользователей
 ● регистрацию и авторизацию
 
+****************
 РЕШЕНИЕ в src/test/jmeter/jmeter-testapi.jmx.
 
-● Настройки HTTP Request Defaults:
- - протокол = https
- - имя сервера = reqres.in
+● Настройки HTTP Request Defaults: протокол = https; имя сервера = reqres.in.
 
 ● Thread Group 1 - 'List Users (GET)'
  - получает список пользователей по строке GET-запроса "https://reqres.in/api/users?page=2"
